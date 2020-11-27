@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Calculator/Calculator.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:testComposableArchitecture.xcodeproj">
    </FileRef>
    <FileRef

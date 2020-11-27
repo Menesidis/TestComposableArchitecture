@@ -13,10 +13,12 @@
 		195E821325581BA900766F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195E821125581BA900766F0C /* LaunchScreen.storyboard */; };
 		195E821E25581BA900766F0C /* testComposableArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E821D25581BA900766F0C /* testComposableArchitectureTests.swift */; };
 		195E822925581BA900766F0C /* testComposableArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E822825581BA900766F0C /* testComposableArchitectureUITests.swift */; };
-		195E823B25581FDF00766F0C /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 195E823A25581FDF00766F0C /* SwiftPackageProductDependency */; };
+		195E823B25581FDF00766F0C /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 195E823A25581FDF00766F0C /* ComposableArchitecture */; };
 		195E82562558332A00766F0C /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E82542558332A00766F0C /* CounterViewController.swift */; };
 		195E82572558332A00766F0C /* CounterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 195E82552558332A00766F0C /* CounterViewController.xib */; };
 		195E82732558457E00766F0C /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E82722558457E00766F0C /* CounterReducer.swift */; };
+		19B86A042571817C006DB354 /* Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B86A032571817C006DB354 /* Calculator.framework */; };
+		19B86A052571817C006DB354 /* Calculator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 19B86A032571817C006DB354 /* Calculator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		452B29ED452154DE8C2A58B4 /* Pods_testComposableArchitectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7E99D8E037B9C8CF2E8640 /* Pods_testComposableArchitectureTests.framework */; };
 		77751252CE9FCD05CF05CFA2 /* Pods_testComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E403DDFDD319D4D0210FAED /* Pods_testComposableArchitecture.framework */; };
 		A3DFD1A37E0C98FC35320048 /* Pods_testComposableArchitecture_testComposableArchitectureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C1E5E7097DBBEE28D49C56 /* Pods_testComposableArchitecture_testComposableArchitectureUITests.framework */; };
@@ -39,6 +41,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		19B86A062571817C006DB354 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				19B86A052571817C006DB354 /* Calculator.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		06216244F7F2EB9C20DEA0E0 /* Pods-testComposableArchitectureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testComposableArchitectureTests.release.xcconfig"; path = "Target Support Files/Pods-testComposableArchitectureTests/Pods-testComposableArchitectureTests.release.xcconfig"; sourceTree = "<group>"; };
 		085EE7A3AA42F0EB4DBAB0B1 /* Pods-testComposableArchitecture-testComposableArchitectureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testComposableArchitecture-testComposableArchitectureUITests.debug.xcconfig"; path = "Target Support Files/Pods-testComposableArchitecture-testComposableArchitectureUITests/Pods-testComposableArchitecture-testComposableArchitectureUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +73,7 @@
 		195E82542558332A00766F0C /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		195E82552558332A00766F0C /* CounterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CounterViewController.xib; sourceTree = "<group>"; };
 		195E82722558457E00766F0C /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
+		19B86A032571817C006DB354 /* Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7E99D8E037B9C8CF2E8640 /* Pods_testComposableArchitectureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testComposableArchitectureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		511BF86D824E1615296B2488 /* Pods-testComposableArchitecture-testComposableArchitectureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testComposableArchitecture-testComposableArchitectureUITests.release.xcconfig"; path = "Target Support Files/Pods-testComposableArchitecture-testComposableArchitectureUITests/Pods-testComposableArchitecture-testComposableArchitectureUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5E403DDFDD319D4D0210FAED /* Pods_testComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,8 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				195E823B25581FDF00766F0C /* BuildFile in Frameworks */,
+				195E823B25581FDF00766F0C /* ComposableArchitecture in Frameworks */,
 				77751252CE9FCD05CF05CFA2 /* Pods_testComposableArchitecture.framework in Frameworks */,
+				19B86A042571817C006DB354 /* Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,13 +178,13 @@
 				77B79ABA0AFD0BBFFC012D46 /* Pods-testComposableArchitectureTests.debug.xcconfig */,
 				06216244F7F2EB9C20DEA0E0 /* Pods-testComposableArchitectureTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		A6A102EC4113AAE6360FAFE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				19B86A032571817C006DB354 /* Calculator.framework */,
 				5E403DDFDD319D4D0210FAED /* Pods_testComposableArchitecture.framework */,
 				85C1E5E7097DBBEE28D49C56 /* Pods_testComposableArchitecture_testComposableArchitectureUITests.framework */,
 				3F7E99D8E037B9C8CF2E8640 /* Pods_testComposableArchitectureTests.framework */,
@@ -185,6 +203,7 @@
 				195E81FF25581BA600766F0C /* Sources */,
 				195E820025581BA600766F0C /* Frameworks */,
 				195E820125581BA600766F0C /* Resources */,
+				19B86A062571817C006DB354 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,7 +211,7 @@
 			);
 			name = testComposableArchitecture;
 			packageProductDependencies = (
-				195E823A25581FDF00766F0C /* SwiftPackageProductDependency */,
+				195E823A25581FDF00766F0C /* ComposableArchitecture */,
 			);
 			productName = testComposableArchitecture;
 			productReference = 195E820325581BA600766F0C /* testComposableArchitecture.app */;
@@ -268,7 +287,7 @@
 			);
 			mainGroup = 195E81FA25581BA600766F0C;
 			packageReferences = (
-				195E823925581FDF00766F0C /* RemoteSwiftPackageReference */,
+				195E823925581FDF00766F0C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			productRefGroup = 195E820425581BA600766F0C /* Products */;
 			projectDirPath = "";
@@ -483,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -538,7 +557,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -718,7 +737,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		195E823925581FDF00766F0C /* RemoteSwiftPackageReference */ = {
+		195E823925581FDF00766F0C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
 			requirement = {
@@ -729,9 +748,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		195E823A25581FDF00766F0C /* SwiftPackageProductDependency */ = {
+		195E823A25581FDF00766F0C /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 195E823925581FDF00766F0C /* RemoteSwiftPackageReference */;
+			package = 195E823925581FDF00766F0C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
 		};
 /* End XCSwiftPackageProductDependency section */
