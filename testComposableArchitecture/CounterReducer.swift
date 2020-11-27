@@ -7,6 +7,7 @@
 
 import Foundation
 import ComposableArchitecture
+import Calculator
 
 enum ResultState: Equatable {
     case negative
@@ -44,19 +45,19 @@ struct CounterEnvironment {}
 let counterReducer = Reducer<CounterState, CounterAction, CounterEnvironment> { state, action, environment in
     switch action {
     case .addButtonTapped:
-        state.count += 1
+        state.count = state.count.add()
         state.resultState = state.count.toResultState()
         return .none
     case .subtractButtonTapped:
-        state.count -= 1
+        state.count = state.count.subtract()
         state.resultState = state.count.toResultState()
         return .none
     case .multiplyButtonTapped:
-        state.count *= state.count
+        state.count = state.count.multiply()
         state.resultState = state.count.toResultState()
         return .none
     case .clearButtonTapped:
-        state.count = 0
+        state.count = state.count.clear()
         state.resultState = state.count.toResultState()
         return .none
     }
