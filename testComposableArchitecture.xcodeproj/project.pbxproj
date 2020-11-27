@@ -13,10 +13,13 @@
 		195E821325581BA900766F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195E821125581BA900766F0C /* LaunchScreen.storyboard */; };
 		195E821E25581BA900766F0C /* testComposableArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E821D25581BA900766F0C /* testComposableArchitectureTests.swift */; };
 		195E822925581BA900766F0C /* testComposableArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E822825581BA900766F0C /* testComposableArchitectureUITests.swift */; };
-		195E823B25581FDF00766F0C /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 195E823A25581FDF00766F0C /* ComposableArchitecture */; };
+		195E823B25581FDF00766F0C /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 195E823A25581FDF00766F0C /* SwiftPackageProductDependency */; };
 		195E82562558332A00766F0C /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E82542558332A00766F0C /* CounterViewController.swift */; };
 		195E82572558332A00766F0C /* CounterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 195E82552558332A00766F0C /* CounterViewController.xib */; };
 		195E82732558457E00766F0C /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E82722558457E00766F0C /* CounterReducer.swift */; };
+		452B29ED452154DE8C2A58B4 /* Pods_testComposableArchitectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7E99D8E037B9C8CF2E8640 /* Pods_testComposableArchitectureTests.framework */; };
+		77751252CE9FCD05CF05CFA2 /* Pods_testComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E403DDFDD319D4D0210FAED /* Pods_testComposableArchitecture.framework */; };
+		A3DFD1A37E0C98FC35320048 /* Pods_testComposableArchitecture_testComposableArchitectureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C1E5E7097DBBEE28D49C56 /* Pods_testComposableArchitecture_testComposableArchitectureUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06216244F7F2EB9C20DEA0E0 /* Pods-testComposableArchitectureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testComposableArchitectureTests.release.xcconfig"; path = "Target Support Files/Pods-testComposableArchitectureTests/Pods-testComposableArchitectureTests.release.xcconfig"; sourceTree = "<group>"; };
+		085EE7A3AA42F0EB4DBAB0B1 /* Pods-testComposableArchitecture-testComposableArchitectureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testComposableArchitecture-testComposableArchitectureUITests.debug.xcconfig"; path = "Target Support Files/Pods-testComposableArchitecture-testComposableArchitectureUITests/Pods-testComposableArchitecture-testComposableArchitectureUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		195E820325581BA600766F0C /* testComposableArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testComposableArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		195E820625581BA600766F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		195E820825581BA600766F0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +57,13 @@
 		195E82542558332A00766F0C /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		195E82552558332A00766F0C /* CounterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CounterViewController.xib; sourceTree = "<group>"; };
 		195E82722558457E00766F0C /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
+		3F7E99D8E037B9C8CF2E8640 /* Pods_testComposableArchitectureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testComposableArchitectureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		511BF86D824E1615296B2488 /* Pods-testComposableArchitecture-testComposableArchitectureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testComposableArchitecture-testComposableArchitectureUITests.release.xcconfig"; path = "Target Support Files/Pods-testComposableArchitecture-testComposableArchitectureUITests/Pods-testComposableArchitecture-testComposableArchitectureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E403DDFDD319D4D0210FAED /* Pods_testComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B79ABA0AFD0BBFFC012D46 /* Pods-testComposableArchitectureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testComposableArchitectureTests.debug.xcconfig"; path = "Target Support Files/Pods-testComposableArchitectureTests/Pods-testComposableArchitectureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85C1E5E7097DBBEE28D49C56 /* Pods_testComposableArchitecture_testComposableArchitectureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testComposableArchitecture_testComposableArchitectureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBD43E97FE7933FDB45B5A3 /* Pods-testComposableArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testComposableArchitecture.release.xcconfig"; path = "Target Support Files/Pods-testComposableArchitecture/Pods-testComposableArchitecture.release.xcconfig"; sourceTree = "<group>"; };
+		E68E233C6C8D1D4FA17294D1 /* Pods-testComposableArchitecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testComposableArchitecture.debug.xcconfig"; path = "Target Support Files/Pods-testComposableArchitecture/Pods-testComposableArchitecture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				195E823B25581FDF00766F0C /* ComposableArchitecture in Frameworks */,
+				195E823B25581FDF00766F0C /* BuildFile in Frameworks */,
+				77751252CE9FCD05CF05CFA2 /* Pods_testComposableArchitecture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452B29ED452154DE8C2A58B4 /* Pods_testComposableArchitectureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3DFD1A37E0C98FC35320048 /* Pods_testComposableArchitecture_testComposableArchitectureUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +102,8 @@
 				195E821C25581BA900766F0C /* testComposableArchitectureTests */,
 				195E822725581BA900766F0C /* testComposableArchitectureUITests */,
 				195E820425581BA600766F0C /* Products */,
+				6C63C61E2032FB1F785B6E66 /* Pods */,
+				A6A102EC4113AAE6360FAFE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +150,30 @@
 			path = testComposableArchitectureUITests;
 			sourceTree = "<group>";
 		};
+		6C63C61E2032FB1F785B6E66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E68E233C6C8D1D4FA17294D1 /* Pods-testComposableArchitecture.debug.xcconfig */,
+				9CBD43E97FE7933FDB45B5A3 /* Pods-testComposableArchitecture.release.xcconfig */,
+				085EE7A3AA42F0EB4DBAB0B1 /* Pods-testComposableArchitecture-testComposableArchitectureUITests.debug.xcconfig */,
+				511BF86D824E1615296B2488 /* Pods-testComposableArchitecture-testComposableArchitectureUITests.release.xcconfig */,
+				77B79ABA0AFD0BBFFC012D46 /* Pods-testComposableArchitectureTests.debug.xcconfig */,
+				06216244F7F2EB9C20DEA0E0 /* Pods-testComposableArchitectureTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A6A102EC4113AAE6360FAFE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E403DDFDD319D4D0210FAED /* Pods_testComposableArchitecture.framework */,
+				85C1E5E7097DBBEE28D49C56 /* Pods_testComposableArchitecture_testComposableArchitectureUITests.framework */,
+				3F7E99D8E037B9C8CF2E8640 /* Pods_testComposableArchitectureTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 195E822D25581BA900766F0C /* Build configuration list for PBXNativeTarget "testComposableArchitecture" */;
 			buildPhases = (
+				0AF569DFDB23F49944AC38E4 /* [CP] Check Pods Manifest.lock */,
 				195E81FF25581BA600766F0C /* Sources */,
 				195E820025581BA600766F0C /* Frameworks */,
 				195E820125581BA600766F0C /* Resources */,
@@ -150,7 +192,7 @@
 			);
 			name = testComposableArchitecture;
 			packageProductDependencies = (
-				195E823A25581FDF00766F0C /* ComposableArchitecture */,
+				195E823A25581FDF00766F0C /* SwiftPackageProductDependency */,
 			);
 			productName = testComposableArchitecture;
 			productReference = 195E820325581BA600766F0C /* testComposableArchitecture.app */;
@@ -160,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 195E823025581BA900766F0C /* Build configuration list for PBXNativeTarget "testComposableArchitectureTests" */;
 			buildPhases = (
+				ED5F127E3149D981646FB5AE /* [CP] Check Pods Manifest.lock */,
 				195E821525581BA900766F0C /* Sources */,
 				195E821625581BA900766F0C /* Frameworks */,
 				195E821725581BA900766F0C /* Resources */,
@@ -178,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 195E823325581BA900766F0C /* Build configuration list for PBXNativeTarget "testComposableArchitectureUITests" */;
 			buildPhases = (
+				C96A740D7CB42F06E283F3A4 /* [CP] Check Pods Manifest.lock */,
 				195E822025581BA900766F0C /* Sources */,
 				195E822125581BA900766F0C /* Frameworks */,
 				195E822225581BA900766F0C /* Resources */,
@@ -224,7 +268,7 @@
 			);
 			mainGroup = 195E81FA25581BA600766F0C;
 			packageReferences = (
-				195E823925581FDF00766F0C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				195E823925581FDF00766F0C /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 195E820425581BA600766F0C /* Products */;
 			projectDirPath = "";
@@ -263,6 +307,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF569DFDB23F49944AC38E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testComposableArchitecture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C96A740D7CB42F06E283F3A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testComposableArchitecture-testComposableArchitectureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED5F127E3149D981646FB5AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testComposableArchitectureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		195E81FF25581BA600766F0C /* Sources */ = {
@@ -437,6 +550,7 @@
 		};
 		195E822E25581BA900766F0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68E233C6C8D1D4FA17294D1 /* Pods-testComposableArchitecture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +570,7 @@
 		};
 		195E822F25581BA900766F0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBD43E97FE7933FDB45B5A3 /* Pods-testComposableArchitecture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +590,7 @@
 		};
 		195E823125581BA900766F0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B79ABA0AFD0BBFFC012D46 /* Pods-testComposableArchitectureTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +613,7 @@
 		};
 		195E823225581BA900766F0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06216244F7F2EB9C20DEA0E0 /* Pods-testComposableArchitectureTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +636,7 @@
 		};
 		195E823425581BA900766F0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085EE7A3AA42F0EB4DBAB0B1 /* Pods-testComposableArchitecture-testComposableArchitectureUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +657,7 @@
 		};
 		195E823525581BA900766F0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 511BF86D824E1615296B2488 /* Pods-testComposableArchitecture-testComposableArchitectureUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -599,7 +718,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		195E823925581FDF00766F0C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+		195E823925581FDF00766F0C /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
 			requirement = {
@@ -610,9 +729,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		195E823A25581FDF00766F0C /* ComposableArchitecture */ = {
+		195E823A25581FDF00766F0C /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 195E823925581FDF00766F0C /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			package = 195E823925581FDF00766F0C /* RemoteSwiftPackageReference */;
 			productName = ComposableArchitecture;
 		};
 /* End XCSwiftPackageProductDependency section */
